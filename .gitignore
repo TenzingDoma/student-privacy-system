@@ -1,0 +1,32 @@
+# Database
+*.db
+*.db-shm
+*.db-wal
+*.sqlite
+*.sqlite3
+
+# Compiled executables
+backend/student-backend
+*.exe
+*.test
+chaincode/student-privacy-chaincode
+chaincode/vendor/
+
+# Sensitive credentials
+*.key
+*.pem
+*.p12
+*.pfx
+**/msp/
+**/keystore/
+**/signcerts/
+**/tls/
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# macOS and VS Code
+.DS_Store
+.vscode/
